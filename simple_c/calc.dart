@@ -1,6 +1,6 @@
 import 'dart:ffi';
 
-typedef AddNative = Int Function(Int, Int);
+typedef AddNative = Int32 Function(Int32, Int32);
 typedef AddDart = int Function(int, int);
 
 void main() {
