@@ -1,0 +1,3 @@
+C:/src/ffi_demos/rawmode_c/CMakeFiles/rawonoff.dir
+C:/src/ffi_demos/rawmode_c/CMakeFiles/ALL_BUILD.dir
+C:/src/ffi_demos/rawmode_c/CMakeFiles/ZERO_CHECK.dir
