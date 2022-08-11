@@ -1,4 +1,4 @@
-name: rawmode
+name: kilo
 publish_to: none
 
 environment:
@@ -6,3 +6,4 @@ environment:
 
 dependencies:
   ffi: ^2.0.1
+  dart_console: ^1.1.2
