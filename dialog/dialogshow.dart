@@ -9,7 +9,7 @@ import 'package:win32/win32.dart';
 
 void main() {
   CoInitializeEx(nullptr, COINIT_APARTMENTTHREADED);
-  IFileDialog fileDialog = FileOpenDialog.createInstance();
+  IFileOpenDialog fileDialog = FileOpenDialog.createInstance();
 
   using((Arena arena) {
     final hr = fileDialog.Show(NULL);
