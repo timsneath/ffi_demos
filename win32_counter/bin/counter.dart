@@ -53,7 +53,7 @@ class Application {
     final results = parser.parse(args);
 
     if (results['help'] as bool) {
-      print('Runs a Flutter app.\n\nSyntax:\n${parser.usage}');
+      stdout.writeln('Runs a Flutter app.\n\nSyntax:\n${parser.usage}');
       exit(0);
     }
 
