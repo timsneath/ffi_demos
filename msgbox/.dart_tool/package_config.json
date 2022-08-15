@@ -8,13 +8,19 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "rawmode",
+      "name": "win32",
+      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/win32-2.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
+      "name": "msgbox",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-08-15T22:10:08.349988Z",
+  "generated": "2022-08-15T22:10:15.061308Z",
   "generator": "pub",
   "generatorVersion": "2.19.0-93.0.dev"
 }
