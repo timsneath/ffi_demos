@@ -1,6 +1,9 @@
 // ignore_for_file: unused_local_variable
 
 import 'dart:ffi';
+import 'dart:io';
+
+import 'package:ffi/ffi.dart';
 
 import 'stdin_raw.dart';
 
@@ -26,11 +29,21 @@ void printConsoleFlags(int flags) {
   print(
       'Console resize events: ${flags & ENABLE_WINDOW_INPUT == ENABLE_PROCESSED_INPUT}');
   print(
-      'VT escape sequence input: ${flags & ENABLE_VIRTUAL_TERMINAL_INPUT == ENABLE_VIRTUAL_TERMINAL_INPUT}');
+      'VT escape sequence input: ${flags & ENABLE_VIRTUAL_TERMINAL_INPUT == ENABLE_VIRTUAL_TERMINAL_INPUT}\n');
 }
 
 void main() {
   final stdInHandle = getStdHandle(STD_INPUT_HANDLE);
 
-  // Add code here
+  // Regular console mode
+  final lpMode = calloc<Int32>();
+  getConsoleMode(stdInHandle, lpMode);
+  printConsoleFlags(lpMode.value);
+
+  // Raw console mode
+  stdin.rawMode = true;
+  getConsoleMode(stdInHandle, lpMode);
+  printConsoleFlags(lpMode.value);
+
+  calloc.free(lpMode);
 }
