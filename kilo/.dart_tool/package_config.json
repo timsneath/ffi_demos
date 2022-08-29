@@ -3,43 +3,43 @@
   "packages": [
     {
       "name": "characters",
-      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/characters-1.2.1",
+      "rootUri": "file:///C:/Users/timsneath/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/characters-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "clock",
-      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/clock-1.1.1",
+      "rootUri": "file:///C:/Users/timsneath/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/clock-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "dart_console",
-      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/dart_console-1.1.2",
+      "rootUri": "file:///C:/Users/timsneath/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/dart_console-1.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "ffi",
-      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/ffi-2.0.1",
+      "rootUri": "file:///C:/Users/timsneath/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/ffi-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "intl",
-      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
+      "rootUri": "file:///C:/Users/timsneath/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/intl-0.17.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path",
-      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/path-1.8.2",
+      "rootUri": "file:///C:/Users/timsneath/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/path-1.8.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "win32",
-      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/win32-2.7.0",
+      "rootUri": "file:///C:/Users/timsneath/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/win32-2.7.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -50,7 +50,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-08-11T19:50:36.008532Z",
+  "generated": "2022-08-29T22:00:42.188560Z",
   "generator": "pub",
-  "generatorVersion": "2.19.0-78.0.dev"
+  "generatorVersion": "2.19.0-146.0.dev"
 }

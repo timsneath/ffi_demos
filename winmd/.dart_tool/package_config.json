@@ -3,19 +3,19 @@
   "packages": [
     {
       "name": "ffi",
-      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/ffi-2.0.1",
+      "rootUri": "file:///C:/Users/timsneath/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/ffi-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "win32",
-      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/win32-2.7.0",
+      "rootUri": "file:///C:/Users/timsneath/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/win32-2.7.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "winmd",
-      "rootUri": "file:///c:/src/pub-cache/hosted/pub.dartlang.org/winmd-2.3.0",
+      "rootUri": "file:///C:/Users/timsneath/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/winmd-2.3.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -26,7 +26,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-08-11T22:51:52.559584Z",
+  "generated": "2022-08-29T22:00:48.943094Z",
   "generator": "pub",
-  "generatorVersion": "2.19.0-89.0.dev"
+  "generatorVersion": "2.19.0-146.0.dev"
 }
