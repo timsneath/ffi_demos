@@ -20,11 +20,13 @@ void main() {
   final stdInHandle = GetStdHandle(STD_INPUT_HANDLE);
 
   // Regular console mode
+  print('Normal mode flags:');
   final lpMode = calloc<Int32>();
   GetConsoleMode(stdInHandle, lpMode);
   printConsoleFlags(lpMode.value);
 
   // Raw console mode
+  print('\nRaw mode flags:');
   stdin.rawMode = true;
   GetConsoleMode(stdInHandle, lpMode);
   printConsoleFlags(lpMode.value);
