@@ -1,5 +1,7 @@
-Some examples of using FFI, as presented at the Flutter Vikings conference in
-August 2022.
+Some examples of using FFI, as presented at the [Flutter
+Vikings](https://fluttervikings.com) conference in August 2022.
+
+[![Language](https://img.shields.io/badge/language-Dart-blue.svg)](https://dart.dev)
 
 ## `simple_c`
 
